@@ -17,6 +17,8 @@
 
 .navbar {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     background: red;
     height: 80px;
 }
@@ -24,7 +26,24 @@
 .peets-icon {
     height: 60px;
     width: auto;
-    margin-top: 10px;
+
+}
+
+.navigation-text ul {
+    display: flex;
+}
+
+.login-nav-icons {
+    display: flex;
+}
+
+.nav-icons {
+    display: flex;
+}
+
+.nav-icons img {
+    height: 24px;
+    width: 24px;
 }
 
 /* .test-primary {
