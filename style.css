@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html, body {
+    font-family: "Gotham A","Gotham B",sans-serif;
+}
+
 :root {
     --primary-color: #937031;
 }
@@ -15,64 +19,94 @@
     background-color: var(--primary-color);
 }
 
+.banner p {
+    color: #fff;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: red;
+    border-bottom: 1px solid #ccc;
     height: 80px;
 }
 
 .peets-icon {
-    height: 60px;
+    height: 72px;
     width: auto;
+    margin-left: 32%;
 
+}
+
+.nav-text-ul {
+    display: flex;
+    justify-content: space-between;
 }
 
 .navigation-text ul {
     display: flex;
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.8rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    /* font-weight: 500; */
+}
+
+.navigation-text ul li {
+    margin: 0 20px;
 }
 
 .login-nav-icons {
     display: flex;
+    align-items: center;
 }
+
 
 .nav-icons {
     display: flex;
+    margin-top: 10px;
+
+}
+
+.nav-icons a {
+    margin: 0 12px;
+}
+
+.nav-icons .user-icon{
+    margin-left: -2px;
 }
 
 .nav-icons img {
-    height: 24px;
-    width: 24px;
+    height: 22px;
+    width: 22px;
 }
 
-/* .test-primary {
-    width: 100%;
-    height: 70px;
-    background-color: var(--primary-color);
-}
-
-.peets-icon {
-    height: 60px;
-    width: auto;
-}
-
-.user-icon, .search-icon {
-    height: 24px;
-    width: 24px;
-}
-
-.search-icon {
+.nav-icons .search-icon {
+    height: 20px;
+    width: 20px;
     transform: rotate(90deg);
 }
 
-.shopping-bag-icon {
-    height: 34px;
-    width: 34px;
+
+.nav-icons .shopping-bag-icon {
+    height: 28px;
+    width: 28px;
+    margin-top: -2px;
+    margin-right: 32px;
+    opacity: 0.7;
+
 }
 
-.location-icon {
-    height: 34px;
-    width: 34px;
-} */
+/* Box A*/
+
+.box-a img {
+    width: 100%;
+}
+
+
 
