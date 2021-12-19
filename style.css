@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #937031;
+}
+
+/* Navbar/Banner */
+.banner {
+    height: 30px;
+    width: 100%;
+    background-color: var(--primary-color);
+}
+
+.navbar {
+    display: flex;
+    background: red;
+    height: 80px;
+}
+
+.peets-icon {
+    height: 60px;
+    width: auto;
+    margin-top: 10px;
+}
+
+/* .test-primary {
+    width: 100%;
+    height: 70px;
+    background-color: var(--primary-color);
+}
+
+.peets-icon {
+    height: 60px;
+    width: auto;
+}
+
+.user-icon, .search-icon {
+    height: 24px;
+    width: 24px;
+}
+
+.search-icon {
+    transform: rotate(90deg);
+}
+
+.shopping-bag-icon {
+    height: 34px;
+    width: 34px;
+}
+
+.location-icon {
+    height: 34px;
+    width: 34px;
+} */
+
